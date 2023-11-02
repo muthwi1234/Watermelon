@@ -1,0 +1,28 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #87CEEB;
+}
+
+.watermelon {
+    width: 200px;
+    height: 100px;
+    background: linear-gradient(45deg, #ff5733 50%, #228B22 50%);
+    position: relative;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+.message {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-size: 18px;
+    user-select: none;
+}
